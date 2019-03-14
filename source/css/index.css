@@ -1,0 +1,41 @@
+/*bannerÁ‰Ê*/
+.banner { position:relative; width:100%; height:370px; min-width:1200px; overflow:hidden;}
+.banner_list{ width:100%; height:370px; overflow:hidden;}
+.banner_list li { height:370px; position:absolute; width:100%; display:none; }
+.banner_list li img{ position:absolute; left:50%; top:0; margin-left:-960px; width:1920px; height:370px;}
+.banner_btn_o a{ display:block; position:absolute; top:140px; z-index:20; width:60px; height:90px;}
+.banner_prev{ background:url(../img/icon/banner_lac.png) no-repeat; left:0;}
+.banner_next{ background:url(../img/icon/banner_rac.png) no-repeat; right:0;}
+
+/*body*/
+.body_c{ height:auto; overflow:hidden; padding:24px 0 76px;}
+.five_chnal{ height:214px; margin-bottom:58px;}
+.five_chlist ul{ width:1210px;}
+.five_chlist li{ float:left; margin-right:12px; display:inline; position:relative; width:230px; height:214px;}
+.five_po{ width:210px; height:202px; padding:10px 9px 0 9px; border:1px solid #dcdcdc;}
+
+/* five_poName font-size:15px -> 10px 20190204 K.Morita */
+.five_poName a{ color:#333; font-size:12px;}
+.five_poName a img{ vertical-align:middle; margin-right:18px;}
+.five_poImg{ width:210px; height:170px; padding-top:4px;}
+.five_show{ position:absolute; top:0; left:0; z-index:10; width:230px; display:none;}
+.five_shBox{ width:210px; min-height:202px; padding:10px 9px 0 9px; border:1px solid #dcdcdc;}
+.five_sub{ padding:8px 0 12px;}
+.five_subBox{ float:none; display:block; margin-right:0; width:210px; height:32px; line-height:32px; border-bottom:1px dotted #ccc;}
+.five_subBox a{ display:block; background:url(../img/icon/sub_ac.png) no-repeat left; padding-left:12px; width:198px; height:32px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+/*news-four*/
+.new_four{ height:auto; overflow:hidden;}
+.news{ width:716px;}
+.four_chnal{ width:472px;}
+.four_chnal ul{ width:484px;}
+.four_chnal li{ float:left; width:230px; height:150px; margin:0 12px 12px 0; display:inline;}
+
+/* four_chnal width:110px -> 115px 20190204 K.Morita */
+.four_chnal li a{ display:block; width:115px; height:100px; padding:50px 0 0 120px;}
+.four_chnal li a span{ display:block;}
+
+/* four_chcn font-size:18px -> 14px 20190204 K.Morita */
+.four_chcn{ color:#333; font-size:14px;}
+/*.four_chen{ color:#888; font-size:14px;}*/
+.four_chnal li a:hover span{ color:#b72024;}
